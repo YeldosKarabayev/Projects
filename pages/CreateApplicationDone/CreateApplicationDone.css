@@ -1,0 +1,168 @@
+
+.title__list-item {
+    align-items: center;
+    text-align: center;
+    height: 110px;
+    background-color: #FFFFFF;
+}
+
+
+.main-content {
+    width: 70%;
+    height: auto;
+    border-bottom: 1px solid #cac9c9;
+    background: #ffffff;
+    margin-top: 2rem;
+    border-radius: 4px;
+}
+
+.full-content {
+    margin-bottom: 250px;
+}
+
+.create-application {
+    padding: 2rem;
+}
+
+.count {
+    border: 1px solid #cac9c9;
+    padding: 1rem;
+    font-size: 16.67px;
+}
+
+.delete {
+    width: 170px;
+    height: 42px;
+    background-color:  #fff;
+    border: none;
+    border-radius: 1px;
+    border: 1px solid #cac9c9;
+    color: #000;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.delete:hover {
+    background-color: #F83221;
+    color: #fff;
+    border: none;
+}
+
+.dropdowne {
+    position: relative;
+}
+
+.dropdown-button {
+    position: relative;
+    display: block;
+    text-align: left;
+    border: 1px solid #cac9c9;
+    border-radius: 2px;
+    padding-left: 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.dropdown-button:focus {
+    outline: none;
+    box-shadow: 0px 0px 0px 2px #53CAF5;
+}
+
+.dropdown-buttone::after {
+    content: "";
+    position: absolute;
+    top: 50%;
+    right: 15px;
+    transform: translateY(-50%);
+
+    width: 0;
+    height: 0;
+    border-width: 10.4px 6px 0 6px;
+    border-color: #79849B transparent transparent transparent;
+    border-style: solid;
+}
+
+.dropdown__list {
+    position: absolute;
+    left: 0;
+    margin: 0;
+    padding: 0;
+    height: 250px;
+    list-style-type: none;
+    margin-top: 5px;
+    border: 10px solid #ffff;
+
+    background-color: #ffffff;
+    box-shadow: 3px 3px 10px 6px rgba(0, 0, 0, 0.06);
+    overflow: hidden;
+    overflow-y:scroll;
+    width: 100%;
+    z-index: 1;
+}
+
+li:nth-child(even) {
+    background-color: #ECF4F8;
+  }
+
+.dropdown__list-item {
+    margin: 0;
+    padding: 0;
+    border-bottom: 0;
+    padding: 9px 20px;
+    cursor: pointer;
+    border-radius: 2px;
+    font-size: 13px;
+    font-weight: 500;
+    outline-offset: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #000;
+}
+
+
+.select-button {
+    height: 28px;
+    width: 76px;
+    background-color: #FFFFFF;
+    border-radius: 4px;
+    font-size: 12px;
+    color: #000;
+
+}
+
+span {
+    margin-right: 16px;
+}
+
+.dropdown__list-item:hover {
+    background-color: rgba(176, 198, 225, 0.2);
+}
+
+
+.count:focus {
+    outline: none;
+    box-shadow: 0px 0px 0px 2px #53CAF5;
+}
+
+.right-down___container {
+    display: flex;
+    padding: 2rem;
+    width: 28%;
+    height: max-content;
+    margin-top: 2rem;
+    margin-left: 2rem;
+    background: #FFFFFF;
+    border-radius: 4px;
+}
+
+.status___aplication {
+    font-size: 13px;
+    width: 320px;
+    height: max-content;
+}
+
+.active-apl {
+    font-size: 16.67px;
+}
+

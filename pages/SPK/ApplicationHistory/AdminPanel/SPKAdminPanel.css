@@ -1,0 +1,104 @@
+
+.title-list-application {
+    text-align: center;
+    align-items: center;
+ 
+    background-color: #fff;
+    width: 100%;
+    height: 100px;
+  }
+
+.main-table {
+    width: 100%;
+    height: auto;
+    border-bottom: 1px solid #cac9c9;
+    background: #ffffff;
+    margin-top: 2rem;
+    border-radius: 4px;
+    
+}
+.title-list {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2.5rem;
+}
+
+.left-title-list {
+    display: flex;
+    align-items: center;
+}
+
+.download-btn {
+    font-size: 15px;
+    font-weight: 600;
+    border: 2px solid #cac9c9;
+    width: 130px;
+    height: 40px;
+    border-radius: 2px;
+}
+
+.applicaation-btn:hover {
+    background-color: #0099E1;
+    border: 2px solid #fff;
+    color: #fff;
+    font-size: 17px;
+    font-weight: 500;
+}
+
+.search-container {
+    display: flex;
+    align-items: center;
+    padding: 0 2.5rem;
+}
+
+.search-input {
+    font-size: 16.67px;
+    border: 2px solid #0095E0;
+    padding: 0 20px;
+    height: 40px;
+    border-radius: 3px;
+}
+
+::-webkit-input-placeholder {
+    color: #000;
+}
+
+  .actions {
+    align-items: center;
+    text-align: center;
+    width: 65px;
+    height: 22px;
+    border-radius: 5px;
+    background-color: #fff;
+    border: 1px solid #cac9c9;
+  }
+
+  .count-and-pagination {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    text-align: center;
+    margin-top: 35px;
+    
+  }
+
+  .pagination-page {
+    justify-content: start;
+  }
+
+  .pagin {
+    align-items: center;
+    text-align: center;
+  }
+  
+  .page {
+    width: 25px;
+    height: 30px;
+    background-color: #fff;
+    align-items: center;
+    text-align: center;
+    border-radius: 5px;
+    padding: 5px;
+    font-size: 16px;
+  }

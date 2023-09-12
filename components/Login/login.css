@@ -1,0 +1,48 @@
+.wrapper {
+    height: 100%
+}
+
+.login-header {
+  padding: 40px 0;
+}
+
+.login-auth {
+  padding: 50px 30px;
+  background-color: #0757FF;
+  min-width: 309px;
+  height: min-content;
+  border-radius: 6px;
+}
+
+
+.login-auth h2 {
+  font-size: 16.67px;
+  font-weight: 500;
+  color: #fff;
+  text-align: center;
+  margin-bottom: 18px;
+}
+
+.login-auth form input {
+    background-color: #fff;
+    font-size: 12.5px;
+    color: #7f8189;
+    padding: 20px;
+    border-radius: 5px;
+  }
+
+  .login-auth form input:first-child {
+    margin-bottom: 15px;
+  }
+
+  .login-auth form button {
+    background-color: #3BC3F4;
+    width: 100%;
+  }
+
+  .login-button {
+    height: 40px;
+    font-size: 16.67px;
+    color: #fff;
+    border-radius: 5px;
+  }
